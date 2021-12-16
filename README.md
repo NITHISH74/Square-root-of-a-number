@@ -21,11 +21,18 @@ Developed by: NITHISHWAR S
 RegisterNumber: 21002766
 
 def newton_method(x, y = 100):
+
     a = float(x) 
+    
     for i in range(y): 
+    
         x = 0.5 * (x + a / x) 
+        
     return x
+    
 a=int(input())
+
+
 print("Square root of the number:",newton_method(a))
 
 
